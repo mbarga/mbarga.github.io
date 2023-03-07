@@ -1,0 +1,54 @@
+baseURL = 'http://matthewbarga.com'
+languageCode = 'en-us'
+title = 'Matthew Barga'
+theme = 'archie'
+# copyright = "© Athul"
+
+# Code Highlight
+#pygmentsstyle = "monokai"
+pygmentsstyle = "gruvbox"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+#paginate=3 # articles per page
+
+[params]
+	mode="auto" # color-mode → light,dark,toggle or auto
+	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
+	subtitle = "About me"
+	#mathjax = true # enable MathJax support
+	#katex = true # enable KaTeX support
+
+# Social Tags
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/mbarga"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "linkedin"
+url = "https://linkedin.com/in/matthewbarga"
+
+[[params.social]]
+name = "GitLab"
+icon = "gitlab"
+url = "https://gitlab.com/mbarga"
+
+# Main menu Items
+
+[[menu.main]]
+name = "About"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "CV"
+url = "/cv"
+weight = 2
+
+[[menu.main]]
+name = "Contact"
+url = "/contact"
+weight = 3
