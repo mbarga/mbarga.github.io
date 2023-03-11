@@ -15,9 +15,9 @@ pygmentscodefencesguesssyntax = true
 [params]
 	mode="auto" # color-mode → light,dark,toggle or auto
 	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
-	subtitle = "About me"
-	#mathjax = true # enable MathJax support
-	#katex = true # enable KaTeX support
+	#subtitle = "About me"
+	favicon="favicon.png"
+	CV="matthew_barga_cv.pdf"
 
 # Social Tags
 

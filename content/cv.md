@@ -1,5 +1,5 @@
 
-## Work Experience
+## Work Experience ([PDF](../static/matthew_barga_cv.pdf))
  
 12.2021 ~ Present \
 Senior Python Engineer, cookpad, Bristol, UK
