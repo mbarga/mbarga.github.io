@@ -13,11 +13,28 @@ pygmentscodefencesguesssyntax = true
 #paginate=3 # articles per page
 
 [params]
-	mode="auto" # color-mode → light,dark,toggle or auto
+	mode="toggle" # color-mode → light,dark,toggle or auto
 	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
 	#subtitle = "About me"
 	favicon="favicon.png"
 	CV="matthew_barga_cv.pdf"
+
+# Main menu Items
+
+[[menu.main]]
+name = "About"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "CV"
+url = "/cv"
+weight = 2
+
+[[menu.main]]
+name = "Contact"
+url = "/contact"
+weight = 3
 
 # Social Tags
 
@@ -36,19 +53,3 @@ name = "GitLab"
 icon = "gitlab"
 url = "https://gitlab.com/mbarga"
 
-# Main menu Items
-
-[[menu.main]]
-name = "About"
-url = "/"
-weight = 1
-
-[[menu.main]]
-name = "CV"
-url = "/cv"
-weight = 2
-
-[[menu.main]]
-name = "Contact"
-url = "/contact"
-weight = 3
