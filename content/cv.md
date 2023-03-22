@@ -7,7 +7,7 @@ title: CV
 Senior Python Engineer @ Cookpad Global (Bristol, UK) \
 12.2021 - Present 
 
-Software Engineer @ commercetools (Berlin, Germany) \
+Python Engineer @ commercetools (Berlin, Germany) \
 7.2018 - 12.2021
 
 Data Scientist @ AXA Life Insurance (Tokyo, Japan) \
